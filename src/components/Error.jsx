@@ -1,7 +1,9 @@
-import React from 'react';
-
 const Error = () => (
-  <div>Error</div>
+  <div className="w-full flex justfy-center items-center">
+    <h1 className="font-bold text-2xl">
+      Something Went Wrong Please Try Again Bro...
+    </h1>
+  </div>
 );
 
 export default Error;
